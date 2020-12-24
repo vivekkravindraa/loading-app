@@ -2,7 +2,7 @@
   "name": "loading-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://vivekkravindraa.github.io/dashboard-ui",
+  "homepage": "http://vivekkravindraa.github.io/loading-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
