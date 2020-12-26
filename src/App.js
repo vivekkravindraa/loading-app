@@ -7,6 +7,8 @@ import { css } from "@emotion/core";
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import SyncLoader from "react-spinners/SyncLoader";
 
+import './App.css';
+
 const override = css`
   display: block;
   border-color: #00401A;
@@ -27,7 +29,7 @@ class App extends React.Component {
   render() {
     const { users, posts } = this.props;
     return (
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 6fr)', margin: 60 }}>
+      <div className="loadingContainer">
         <div>
           <h1>Users</h1>
           {users && users.map((user, index) => {
